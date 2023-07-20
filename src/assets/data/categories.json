@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Food",
+        "categories":[
+            {
+                "catId":1,
+                "categoryName":"Wet"
+            },
+            {
+                "catId":2,
+                "categoryName":"Dry"
+            },
+            {
+                "catId":3,
+                "categoryName":"Adult"
+            },
+            {
+                "catId":4,
+                "categoryName":"Kitten"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Equipment",
+        "categories": [
+            {
+                "catId":5,
+                "categoryName":"Bed"
+            },
+            {
+                "catId":6,
+                "categoryName":"Scarper"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Toys",
+        "categories":[
+            {
+                "catId":7,
+                "categoryName":"Teaser"
+            },
+            {
+                "catId":8,
+                "categoryName":"Ball"
+            }
+        ]
+    }
+]

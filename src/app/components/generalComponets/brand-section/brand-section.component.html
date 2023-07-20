@@ -1,0 +1,19 @@
+
+<ng-container *ngFor="let b of brandItems">
+    <div class="{{b.backgroundColor}} py-5">
+        <div class="container">
+            <div class="row align-items-center align-content-center">
+                <div class="col-12 col-md-6 {{b.order.order1}} d-flex">
+                    <img src="{{b.src}}" alt="{{b.name}}" class="img-fluid d-block">
+                </div>
+                <div class="col-12 col-md-6 {{b.order.order2}}">
+                    <h3>{{b.name}}</h3>
+                    <p>{{b.description}}</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+</ng-container>
+

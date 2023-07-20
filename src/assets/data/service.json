@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Cat Food",
+        "imgSrc": "assets/img/cat-food.png",
+        "description": "We have all kinds of food from most popular brands."
+    },
+    {
+        "id": 2,
+        "name": "Cat Equipment",
+        "imgSrc": "assets/img/cat-scarper.png",
+        "description": "We have all kinds of equipment from most popular brands."
+    },
+    {
+        "id": 3,
+        "name": "Cat Toys",
+        "imgSrc": "assets/img/cat-toys.png",
+        "description": "We have all kinds of toys for fun."
+    }
+    
+    
+]

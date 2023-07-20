@@ -1,0 +1,30 @@
+
+    <div class="ik-item shadow">
+        <img src="assets/img/{{p.img.src}}" alt={{p.img.alt}} class="img-fluid ik-img"/>
+        <div class="ik-item-body px-4">
+            <p>{{p.name}}</p>
+            <p class="mb-2"></p>
+        </div>
+        <ng-container *ngIf="p.price.discount != null; else noDiscount">
+
+            <div class="ik-discount pt-2 px-2">
+                <h4>{{p.price.discount}}%</h4>
+            </div>
+            <div class="px-4">
+              <p><span class="ik-color-red">{{p.price.noDis  | discountPrice : p.price.discount }}&euro;</span> 
+              <del class="ml-2">{{p.price.noDis}}&euro;</del></p>
+           </div>
+        </ng-container>
+        <ng-template #noDiscount>
+            <div class="px-4">
+                <p><span class="ik-color-red">{{p.price.noDis}}&euro;</span>
+           </div>
+        </ng-template>
+
+
+        <div class="ik-item-footer px-2 py-2">
+            <a class="btn btn-primary ik-buy-button mb-1" (click)="addToCart(p.id)">Add to cart</a>
+            <a class="btn btn-primary ik-see-more-btn mb-1" (click)="seeMoreAboutProduct(p.id)" data-product-id="${product.id}">See More</a>
+        </div>
+    </div>
+

@@ -1,0 +1,123 @@
+@media screen and (max-width: 1025px){
+    .header-first h2{
+        font-size: 25px;
+    }
+    .ik-right-arrow{
+        top:200px !important;
+    }
+    .ik-left-arrow{
+        top: 200px !important;
+    }
+    #ik-modal{
+        bottom: 20%;
+    }
+}
+@media screen and (max-width: 769px){
+    #ik-ham-div{
+        display:block !important;
+    }
+    .header-second ul{
+        flex-direction: column !important;
+        margin-top: 5px;
+        
+    }
+    .header-second ul li{
+        padding: 10px 0px !important;
+        border-top: 1px solid #0A2463;
+    }
+    .header-second ul li a{
+        padding: 10px 0px !important;
+    }
+    .header-second ul li a:hover{
+        border: none;
+    }
+    .header-second #ik-ham-btn i{
+        font-size: 25px;
+    }
+    .header-second .ik-cart-btn i{
+        font-size: 32px;
+    }
+    .ik-nav-div{
+        display:none;
+    }
+    .ik-right-arrow{
+        top:130px !important;
+    }
+    .ik-left-arrow{
+        top: 130px !important;
+    }
+    #slider-sec .ik-heading h1{
+        font-size: 40px !important;
+    }
+    #services h2{
+        font-size: 32px !important;
+    }
+    #ik-modal{
+        top:10%;
+        left:25%;
+        right:25%;
+        padding: 7px;
+    }
+    .ik-porduct-view{
+        display: none;
+    }
+}
+@media screen and (max-width: 575px){
+    #ik-modal{
+        top:10%;
+        left:5%;
+        right:5%;
+        padding: 7px;
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 483px){
+    .ik-login-icon{
+        display:none;
+    }
+    .ik-register-icon{
+        display: none;
+    }
+    .ik-right-arrow{
+        top:70px !important;
+    }
+    .ik-left-arrow{
+        top: 70px !important;
+    }
+    .ik-right-arrow i{
+        font-size: 40px;
+    }
+    .ik-left-arrow i{
+        font-size: 40px;
+    }
+    #slider-sec .ik-heading h1{
+        font-size: 33px !important;
+    }
+    #services h2{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 343px){
+    .header-first h2{
+        font-size: 19px;
+    }
+    .ik-login-btn{
+        font-size: 14px;
+    }
+    .ik-register-btn{
+        font-size: 14px;
+    }
+    .ik-right-arrow{
+        top:45px !important;
+    }
+    .ik-left-arrow{
+        top: 45px !important;
+    }
+    #slider-sec .ik-heading h1{
+        font-size: 25px !important;
+    }
+    
+    #services h2{
+        font-size: 19px !important;
+    }
+}

@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #000000 !important;
+}
+
+a {
+  color: #FFFAFF !important;
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0px !important;
+  margin-left: 0px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.ik-bg-white {
+  background-color: #FFFAFF;
+}
+
+.ik-bg-light-blue {
+  background-color: #3E92CC;
+}
+
+.ik-bg-dark-blue {
+  background-color: #0A2463;
+}
+
+.ik-color-light-blue {
+  color: #3E92CC !important;
+}
+
+.ik-color-dark-blue {
+  color: #0A2463 !important;
+}
+
+.ik-color-red {
+  color: #a4161a !important;
+}
+
+.ik-color-white {
+  color: #FFFAFF !important;
+}
+
+.ik-margin-bottom {
+  margin-bottom: 13px;
+}
+
+.ik-border-blue {
+  border: 1px solid #3E92CC;
+}
+
+.header-first #header-search {
+  border: 1px solid #3E92CC !important;
+}
+
+.header-first .header-search-btn {
+  border: 1px solid #3E92CC;
+  border-left: none !important;
+  padding: 6px 5px;
+}
+
+.header-first .header-search-btn:hover {
+  background-color: #3E92CC;
+}
+
+.header-first .header-search-btn:hover i {
+  color: #FFFAFF !important;
+}
+
+.header-first .header-search-btn i {
+  color: #3E92CC;
+  font-size: 20px;
+}
+
+.header-first i {
+  font-size: 40px;
+  color: #3E92CC;
+  margin-right: 7px;
+}
+
+.header-second #ik-ham-btn {
+  border: 1px solid #0A2463;
+}
+
+.header-second #ik-ham-btn i {
+  font-size: 40px;
+}
+
+.header-second #ik-ham-div {
+  display: none;
+}
+
+.header-second #ik-ham-div i {
+  color: #0A2463;
+}
+
+.header-second ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-second ul li {
+  padding: 10px;
+}
+
+.header-second ul li a {
+  padding: 10px;
+  font-size: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header-second ul li a:hover {
+  border: 1px solid #FFFAFF;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header-second .ik-cart-btn i {
+  color: #0A2463;
+  font-size: 40px;
+}
+
+.header-second .ik-cart-btn i:hover {
+  color: #FFFAFF;
+}
+
+#slider img {
+  display: none;
+  width: 100%;
+}
+
+.ik-slider-active {
+  display: block !important;
+  width: 100%;
+}
+
+.ik-left-arrow {
+  position: absolute;
+  left: 30px;
+  top: 300px;
+}
+
+.ik-left-arrow i {
+  color: #0A2463;
+  font-size: 60px;
+}
+
+.ik-left-arrow a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ik-left-arrow a:hover i {
+  color: #ffffff;
+}
+
+.ik-right-arrow {
+  position: absolute;
+  right: 30px;
+  top: 300px;
+}
+
+.ik-right-arrow i {
+  color: #0A2463;
+  font-size: 60px;
+}
+
+.ik-right-arrow a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ik-right-arrow a:hover i {
+  color: #ffffff;
+}
+
+#slider-sec {
+  position: relative;
+}
+
+#slider-sec .ik-heading {
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  right: 10%;
+}
+
+#slider-sec .ik-heading h1 {
+  font-size: 50px;
+}
+
+.footer-first {
+  border-bottom: 2px solid #0A2463;
+}
+
+.footer-first ul li a i {
+  color: #0A2463 !important;
+  margin-right: 4px;
+}
+
+#services h2 {
+  font-size: 40px;
+}
+
+#services .ik-card {
+  border: none;
+}
+
+main .ik-item {
+  position: relative;
+}
+
+main .ik-item p {
+  margin-bottom: 0px;
+}
+
+main .ik-item p i {
+  color: #3E92CC;
+}
+
+main .ik-item .ik-item-footer {
+  border-top: 1px solid #000000;
+}
+
+main .ik-item .ik-img {
+  width: 100%;
+}
+
+main .ik-item .ik-discount {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  background-color: #3E92CC;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+main .ik-item .ik-discount h4 {
+  color: #ffffff;
+}
+
+main .ik-change-view {
+  font-size: 30px;
+}
+
+#ik-modal {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  z-index: 14;
+  border: 2px solid #0A2463;
+  background-color: #ffffff;
+  display: none;
+  overflow: scroll;
+}
+
+#ik-modal .ik-img-see-more {
+  width: 100%;
+  height: auto;
+}
+
+#ik-modal p {
+  font-size: 13px;
+}
+
+#err-modal {
+  position: fixed;
+  top: 20%;
+  left: 15%;
+  right: 15%;
+  z-index: 15;
+  border: 4px solid #a4161a;
+  background-color: #ffffff;
+  display: none;
+}
+
+#err-modal i {
+  font-size: 30px;
+}
+
+.ik-no-prod {
+  display: block;
+  margin: 0px auto;
+}
+
+.ik-num-prod {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #a4161a;
+  color: #FFFAFF !important;
+  position: relative;
+  left: -20px;
+  top: -15px;
+}
+
+.ik-hide {
+  display: none;
+}
+
+.ik-show {
+  display: block;
+}
+
+#messageModal {
+  position: fixed;
+  top: 20%;
+  border: 1px solid #0A2463;
+  left: 20%;
+  right: 20%;
+  z-index: 15;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

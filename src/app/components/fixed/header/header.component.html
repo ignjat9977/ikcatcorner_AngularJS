@@ -1,0 +1,48 @@
+<!-- Start Header -->
+<header>
+    <div class="header-first ik-bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 order-md-1 order-0 col-md-4 d-flex align-items-center justify-content-start">
+                    <img src="assets/img/Logo1.png" alt="Logo" class="img-fluid"/>
+                    <h2 class="ik-color-dark-blue"><span class="ik-color-red">Cat</span> Corner</h2>
+                </div>
+                <div class="col-12 order-md-2 order-2 col-md-4 d-flex align-items-center my-2">
+                    <input type="search" class="form-control rounded-0" name="header-search" id="header-search"/>
+                    <a href="#" class="header-search-btn"><i class="fas fa-search"></i></a>
+                </div>
+                <div class="col-6 order-md-3 order-1 col-md-4 d-flex align-items-center justify-content-end">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-second ik-bg-light-blue">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-6 order-1 order-md-1" id="ik-ham-div">
+                    <a href="#" class="btn" id="ik-ham-btn"><i class="fas fa-bars"></i></a>
+                </div>
+                <div class="col-12 order-3 order-md-2 col-md-9 ik-nav-div">
+                    <nav>
+                        <ul>
+                          <ng-container *ngFor="let n of navigations">
+                            <li><a routerLink={{n.link}} routerLinkActive="active" ariaCurrentWhenActive="page">{{n.name}}</a></li>
+
+                          </ng-container>
+                          
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 col-md-3 order-2 order-md-3 d-flex align-items-center justify-content-end">
+                    <a routerLink="/cart" routerLinkActive="active" ariaCurrentWhenActive="page" class="btn ik-cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                    <span #counterCart class="d-flex ik-num-prod align-items-center justify-content-center">0</span>
+                </div>
+            </div>
+        </div>
+    </div>        
+</header>
+<!-- End -->

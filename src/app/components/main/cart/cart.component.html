@@ -1,0 +1,72 @@
+<!-- Error main -->
+<main>
+    <div class="contaner py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>CART</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <section #content> 
+                    <ng-container *ngIf="items != null; else noContent">
+                        <table class="table table-active">
+                          <thead>
+                            <tr>
+                              <th>SL No.</th>
+                              <th>Product</th>
+                              <th>Name</th>
+                              <th>Price</th>
+                              <th>Quantity</th>
+                              <th>Sum</th>
+                              <th>Remove</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="table-primary" *ngFor="let item of items">
+                              <td class="invert">{{ item.id }}</td>
+                              <td class="invert-image">
+                                <a href="shop.html">
+                                  <img src="assets/img/{{ item.img.src }}" style='height:100px' alt="{{ item.img.alt }}" class="img-fluid" />
+                                </a>
+                              </td>
+                              <td class="invert">{{ item.name }}</td>
+                              <td class="invert">${{ item.price.noDis| discountPrice : item.price.discount }}</td>
+                              <td class="invert">{{ item.quantity }}</td>
+                              <td class="invert">${{item.price.noDis  | quantityPrice : item.price.discount : item.quantity }}</td>
+                              <td class="invert">
+                                <div class="rem">
+                                  <div class=""><button class="btn btn-danger" (click)="removeFromCart(item.id)">Remove</button> </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 pb-4 d-flex justify-content-end">
+                                    <a (click)="removeAllItemsFromCart()" id="remAll" class="btn btn-danger mr-4">Remove All</a>
+                                    <a id="buy" class="btn btn-primary">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                      </ng-container>
+                      
+                      <ng-template #noContent>
+                        <div class="row">
+                          <div class="col-12">
+                            <img src="assets/img/empty-cart.png" class="d-block mx-auto img-fluid" alt="Empty Cart" />
+                          </div>
+                        </div>
+                      </ng-template>
+                      
+                                  
+                </section>
+            </div>
+        </div>
+    </div>
+    
+</main>
+<!-- End -->

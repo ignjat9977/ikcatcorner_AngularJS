@@ -1,0 +1,68 @@
+<div id="ik-modal" [className] = "isDisplayed">
+       <ng-container *ngFor="let p of products" >
+        <ng-container 
+        *ngIf="p.id == id"
+        >
+        <app-product-modal [p]="p" ></app-product-modal>
+        </ng-container>
+        
+       </ng-container> 
+</div>
+
+<!-- Start main -->
+   <main>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-3 col-12">
+                <div class="row">
+                       
+                    <ng-container *ngFor="let c of categories">
+                        <div class="col-12 col-sm-4 col-md-12 mt-2">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary">{{c.name}}</li>
+                                <ng-container *ngFor="let cc of c.categories">
+                                    <li class="list-group-item"><input type="checkbox" name="ik-check-name-prod" #check (click)="filterByCheckBox(cc.catId)" value="{{cc.catId}}" class="ik-check-name-prod" />{{cc.categoryName}}</li>
+                        
+                                    
+                                </ng-container>
+                            </ul>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="row pb-2">
+                    <h6 class="ml-3">Sort Products</h6>
+                    <div class="col-12 mb-3" id="ik-sort-list">
+                        <select #sortDD (change)="sortByPrice(sortDD)" class="form-control rounded-0" >
+                            <option value='0'>Choose</option>
+                            <ng-container *ngFor="let s of sortDropDownList">
+                                <option value={{s.value}}>{{s.name}}</option>
+                            </ng-container>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <h6 class="float-left">Choose price in range</h6><output #priceOutput class="float-right" id="ik-fp-op"> 50 </output>
+                        <input type="range" #priceRange (change)="filterByPrice(priceOutput,priceRange)" min="0" max="50" value="50" id="ik-filter-price" class="form-control"/>
+                    </div>
+                </div>
+                <div class="row ik-products-div">
+                    <div class="col-md-4 col-sm-6 col-12 ik-item-div mb-3" *ngFor="let p of products">
+                        <app-product [allProducts]="allProducts" [p]="p"></app-product>
+                    </div>
+                    
+                   <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                       
+                        <ng-container *ngFor="let l of paginationObject">
+                            <li class="page-item"><a class="page-link ik-blue" (click)="changePage(l.value)" >{{l.number}}</a></li>
+                        </ng-container>
+                      
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- End -->

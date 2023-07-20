@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"Low to high",
+        "value": "ascPrice"
+    },
+    {
+        "id":2,
+        "name":"High to low",
+        "value": "descPrice"
+    },
+    {
+        "id":3,
+        "name":"From A to Z",
+        "value": "ascLetter"
+    },
+    {
+        "id":4,
+        "name":"From Z to A",
+        "value": "descLetter"
+    }
+]

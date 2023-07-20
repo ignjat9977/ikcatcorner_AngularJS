@@ -1,0 +1,16 @@
+<div class="row" id="service">
+        
+    
+    <ng-container *ngFor="let s of serviceItems">
+        <div class="col-12 col-md-4 m">
+            <div class="card ik-card mb-3 rounded-0 shadow">
+              <img src={{s.imgSrc}} class="card-img-top" alt="${item.name}">
+              <div class="card-body">
+                <h5 class="card-title">{{s.name}}</h5>
+                <p class="card-text">{{s.description}}</p>
+                <a routerLink="/shop" class="btn btn-primary">Go to Shop</a>
+              </div>
+            </div>
+          </div>
+    </ng-container>
+</div>

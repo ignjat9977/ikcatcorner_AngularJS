@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Royal Canin",
+        "src": "assets/img/royal-canin-logo.png",
+        "description": "Royal Canin is a French manufacturer of cat and dog food. A subsidiary of Mars, Incorporated, the company also undertakes research into the formulation and testing of breed and symptom specific nutritional requirements of dogs and cats.",
+        "order":{
+            "order1":"order-1 justify-content-start",
+            "order2":"order-2"
+        },
+        "backgroundColor": "ik-bg-light-blue"
+    },
+    {
+        "id": 2,
+        "name": "Trixie",
+        "src": "assets/img/trixie-logo.png",
+        "description": "Trixie Pet Supplies is a wholesaler for pet accessories. The company was founded in 1974 and has meanwhile become the European market leader in the field of pet supplies",
+        "order":{
+            "order1":"order-2 justify-content-end",
+            "order2":"order-1"
+        },
+        "backgroundColor": "ik-bg-white"
+    },
+    {
+        "id": 3,
+        "name": "Purina",
+        "src": "assets/img/purinaLogo.png",
+        "description": "Purina is an American subsidiary of Nestlé, based in St. Louis, Missouri. It produces and markets pet food, treats and cat litter. Some of its pet food brands include Purina Pro Plan, Purina Dog Chow, Friskies, Beneful and Purina One.",
+        "order":{
+            "order1":"order-1 justify-content-start",
+            "order2":"order-2"
+        },
+        "backgroundColor": "ik-bg-light-blue"
+    },
+    {
+        "id": 4,
+        "name": "Whisker City",
+        "src": "assets/img/whisker-city-logo.png",
+        "description": "Whisker City is dedicated to enhancing the lives of cats and kittens caught in unfortunate circumstances. Whisker City's sanctuary and rehabilitation center is operated by the founder of over 30 years, April Brown.",
+        "order":{
+            "order1":"order-2 justify-content-end",
+            "order2":"order-1"
+        },
+        "backgroundColor": "ik-bg-white"
+    }
+]

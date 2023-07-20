@@ -1,0 +1,386 @@
+[
+    {
+        "id":1,
+        "name": "Purina Friskies Can",
+        "price":{
+            "noDis": 3.44,
+            "discount": null
+        },
+        "description": "Sate your cat's desires for savory seafood with Purina Friskies Pate Salmon Dinner wet cat food.Every serving offers 100% complete and balanced nutrition for the growth of kittens and maintenance of adult cats, so this wet cat food can follow your darling cat through every stage of her happy life with you.",
+        "img":{
+            "src":"purina-wet-food.png",
+            "alt":"Purina Friskies Can"
+        },
+        "brand":"purina",
+        "categories": 1,
+        "subCategories":[1,4]
+    },
+    {
+        "id":2,
+        "name": "Royal Canin Bag",
+        "price":{
+            "noDis": 23.56,
+            "discount": 30
+        },
+        "description": "Specially formulated for Adult cats from 1-10 years old. Adult Instinctive is formulated to provide your adult cat with an appealing formula they will enjoy at each feeding.",
+        "img":{
+            "src":"royal-canin-dry-food.png",
+            "alt":"Royal Canin Bag"
+        },
+        "brand":"royalcanin",
+        "categories": 1,
+        "subCategories":[2,3]
+    },
+    {
+        "id":3,
+        "name": "Royal Canin Can",
+        "price":{
+            "noDis": 3.44,
+            "discount": 20
+        },
+        "description": "Specially formulated for Adult cats from 1-10 years old. Adult Instinctive is formulated to provide your adult cat with an appealing formula they will enjoy at each feeding.",
+        "img":{
+            "src":"royal-canin-wet-food.png",
+            "alt":"Royal Canin Can"
+        },
+        "brand":"royalcanin",
+        "categories": 1,
+        "subCategories":[1,3]
+    },
+    {
+        "id":4,
+        "name": "Trixie Bed",
+        "price":{
+            "noDis": 12.66,
+            "discount": 25
+        },
+        "description": "This Trixie Fur Hide Cat Hut is the perfect place for your kitty to find true rest and relaxation. This hut comes in beautiful pink, with a removable pillow as well as an attached toy for when your cat is in a playful mood. Allow your furry friend to find optimal comfort and solitude in one great place.",
+        "img":{
+            "src":"trixie-cat-bed.jpg",
+            "alt":"Trixie Bed"
+        },
+        "brand":"trixie",
+        "categories": 2,
+        "subCategories":[5]
+    },
+    {
+        "id":5,
+        "name": "Trixie Scarper",
+        "price":{
+            "noDis": 17.66,
+            "discount": 15
+        },
+        "description": "The Trixie Parla 24.4-in Fleece Cat Scratching Post is just what your feline friends need to maintain her healthy nails. The post is wrapped in a durable sisal material, providing your pet with the purr-fect surface for sharpening her claws so she has less desire to scratch at your furniture and carpet! When your girl is exhausted from the day, the plush covered base is the ideal spot for long snoozes and cozy naps. This design is made for quick and easy assembly and will attract your cat at any age!",
+        "img":{
+            "src":"trixie-scarper.jpg",
+            "alt":"Trixie Scarper"
+        },
+        "brand":"trixie",
+        "categories": 2,
+        "subCategories":[6]
+    },
+    {
+        "id":6,
+        "name": "Trixie Teaser Toy",
+        "price":{
+            "noDis": 2.66,
+            "discount": 17
+        },
+        "description": "Keep your kitty active and engaged with this Trixie Chirping Mouse Teaser Cat Toy. Teasers give you the chance to interact with your cat and satisfy their natural instinct to hunt. Move the wand, dangle the toy, and keep your cat active and entertained until one of you finally wears out.",
+        "img":{
+            "src":"trixie-teaser-toy.jpg",
+            "alt":"Trixie Scarper"
+        },
+        "brand":"trixie",
+        "categories": 3,
+        "subCategories":[7]
+    },
+    {
+        "id":7,
+        "name": "Wishcker City Ball Toy",
+        "price":{
+            "noDis": 2.66,
+            "discount": 17
+        },
+        "description": "Satisfy your Cat's hunting instinct with this 2-pack of Whisker City Wicker Balls with Feathers Cat Toys. You can toss these toys for your cat, or let her play on her own. In addition, each wicker ball includes a bell inside to further engage your kitty. ",
+        "img":{
+            "src":"whisker-city-ball-toy.jpg",
+            "alt":"Wishcker City Ball Toy"
+        },
+        "brand":"whiskercity",
+        "categories": 3,
+        "subCategories":[8]
+    },
+    {
+        "id":8,
+        "name": "Purina Chow",
+        "price":{
+            "noDis": 23.44,
+            "discount": 20
+        },
+        "description": "Give your cat the nutrition she needs for a long, healthy life with you when you serve Purina Cat Chow Complete dry cat food. This delicious recipe is made with real and farm-raised chicken and supplies high-quality protein to support strong muscles. Plus, it has healthy carbs for vital energy and omega-6 fatty acids to help promote a shiny coat. Purina Cat Chow Complete is formulated to nourish cats at every stage of life, from kittens to adult cats, providing them with 25 essential vitamins and minerals to support overall health. Wholesome ingredients in this high protein dry cat food give you confidence that your feline friend is getting a quality meal in her dish, and 100 percent complete and balanced nutrition helps to support her overall health and wellness. Give your cat the four cornerstones of nutrition at every feeding, including high-quality protein, healthy carbs, essential fatty acids, and essential vitamins and minerals. With a great-tasting recipe, this Purina Cat Chow dry cat food provides Nutrition to make every moment complete for cats to live their best and brightest.",
+        "img":{
+            "src":"purina-bag.png",
+            "alt":"Purina Chow"
+        },
+        "brand":"purina",
+        "categories": 1,
+        "subCategories":[2,3]
+    },
+    {
+        "id":9,
+        "name": "Purina Friskies Sea Food Flavor",
+        "price":{
+            "noDis": 2.66,
+            "discount": 17
+        },
+        "description": "Pour a purr-worthy dish full of yum with Purina Friskies Seafood Sensations dry cat food. Ocean fish, salmon, tuna and crab flavors combine to create a taste she'll love, and a touch of seaweed balances out this recipe for delicious goodness. Essential vitamins and minerals in every serving let you feel good about offering this dry cat food to your feline friend, and the seafood flavors give her plenty of reasons to finish every last delectable bite. Each serving of this dry cat food contains 100% complete and balanced nutrition for every stage of life, so she can enjoy this scrumptious recipe from her playful kitten days all the way through her adventurous adult years. Let the sound of the delightful bites hitting her bowl send her prancing your way, and watch as she savors every bit of the ocean flavors. With so much goodness in every serving, she's sure to meow for more at mealtime. You would never serve your furry feline just any old cat food. Select a product that's backed by a company that's always working hard to advance pet nutrition in the right direction.",
+        "img":{
+            "src":"purina-bag-sea-food.png",
+            "alt":"Purina Friskies Sea Food Flavor"
+        },
+        "brand":"purina",
+        "categories": 1,
+        "subCategories":[2,4]
+    },
+    {
+        "id":10,
+        "name": "Purina Friskies Chicken Flavor",
+        "price":{
+            "noDis": 3.66,
+            "discount": 22
+        },
+        "description": "Satisfy your cat's cravings for classic taste with Purina Friskies Shredswith Chicken in Gravy wet cat food. Real chicken delivers the yummy poultry flavor cats love, and the savory gravy adds moisture and flavor for even more delectable goodness in every bite. Featuring a tender shredded texture, this wet cat food invites your cat to nibble to her heart's content. Feel good about giving her 100% complete and balanced nutrition for adult cats, and let her delight in the rich tastes that make this meal an instant favorite for the feline members of your family. Open a can of this tempting recipe, and let the mouthwatering aroma send a signal to your cat that something delicious is about to happen in her dish. With so much decadent flavor packed into every bite, this wet cat food satisfies her cravings and leaves her belly delightfully happy.",
+        "img":{
+            "src":"purina-wet-food-can.png",
+            "alt":"Wishcker City Ball Toy"
+        },
+        "brand":"purina",
+        "categories": 1,
+        "subCategories":[1,3]
+    },
+    {
+        "id":11,
+        "name": "Royal Canin Bag",
+        "price":{
+            "noDis": 25.45,
+            "discount": 20
+        },
+        "description": "Royal Canin Kitten Dry Food delivers the nutritional precision your kitten needs to reach their most magnificent potential. Transitioning from Royal Canin Mother & Babycat wet and dry formulas is easy: the small, easy-to-chew kibble is made specifically for kittens' mouths. With nearly 50 years of obsessive research, Royal Canin continues to deliver precise pet nutrition. This diet is made to help your young cat reach their most magnificent potential.",
+        "img":{
+            "src":"royal-canin-bag-kitten.jpg",
+            "alt":"Royal Canin Bag"
+        },
+        "brand":"royalcanin",
+        "categories": 1,
+        "subCategories":[2,4]
+    },
+    {
+        "id":12,
+        "name": "Royal Canin Can",
+        "price":{
+            "noDis": 3.66,
+            "discount": 20
+        },
+        "description": "Royal Canin Kitten Loaf in Sauce Wet Food delivers the nutritional precision your kitten needs to reach their most magnificent potential. This wet food's easy-to-chew soft loaf texture is the perfect complement to Royal Canin Dry Food as your kitten transitions to a more 'grown-up' diet of solids. Backed by nearly 50 years of obsessive research and expertise, Royal Canin continues to innovate pet nutrition. This carefully crafted diet is made with the essential nutrients kittens need to reach their most magnificent potential.",
+        "img":{
+            "src":"royal-canin-wet-kitten-food.jpg",
+            "alt":"Royal Canin Can"
+        },
+        "brand":"royalcanin",
+        "categories": 1,
+        "subCategories":[1,4]
+    },
+    {
+        "id":13,
+        "name": "Trixie Bed",
+        "price":{
+            "noDis": 17.66,
+            "discount": 20
+        },
+        "description": "Care Instructions: Machine wash separately in cold water only. Delicate cycle. Use only non-chlorine bleach if needed. Air dry. Reshape as needed.",
+        "img":{
+            "src":"trixie-bed-2.jpg",
+            "alt":"Trixie Bed"
+        },
+        "brand":"trixie",
+        "categories": 2,
+        "subCategories":[5]
+    },
+    {
+        "id":14,
+        "name": "Trixie Scarper",
+        "price":{
+            "noDis": 40.66,
+            "discount": 20
+        },
+        "description": "Your kitty is the ruler of their kingdom, so why not give them the castle they so rightfully deserve? This Trixie Wood Plank Tall Cat Tower offers a multi-level lookout, with plush mats will keep them comfortable while on neighborhood watch. ",
+        "img":{
+            "src":"trixie-scarper-2.jpg",
+            "alt":"Trixie Scarper"
+        },
+        "brand":"trixie",
+        "categories": 2,
+        "subCategories":[6]
+    },
+    {
+        "id":15,
+        "name": "Whisker City Bed",
+        "price":{
+            "noDis": 23.66,
+            "discount": 20
+        },
+        "description": "Care Instructions: Machine wash separately in cold water only. Delicate cycle. Use only non-chlorine bleach if needed. Air dry. Reshape as needed.",
+        "img":{
+            "src":"wc-bed-2.jpg",
+            "alt":"Whisker City Bed"
+        },
+        "brand":"whiskercity",
+        "categories": 2,
+        "subCategories":[5]
+    },
+    {
+        "id":16,
+        "name": "Whisker City Bed",
+        "price":{
+            "noDis": 36.66,
+            "discount": 20
+        },
+        "description": "Care Instructions: Machine wash separately in cold water only. Delicate cycle. Use only non-chlorine bleach if needed. Air dry. Reshape as needed.",
+        "img":{
+            "src":"wc-bed.jpg",
+            "alt":"Whisker City Bed"
+        },
+        "brand":"whiskercity",
+        "categories": 2,
+        "subCategories":[5]
+    },
+    {
+        "id":17,
+        "name": "Whisker City Scarper",
+        "price":{
+            "noDis": 37.64,
+            "discount": 20
+        },
+        "description": "Your kitty is the ruler of their kingdom, so why not give them the castle they so rightfully deserve? This Whisker City Play Mansion Tall cat Tower is a perfect playground packed with endless fun including rope, a toy, a peek-a-boo hut, and more. Yup, this thing is loaded with stuff to explore.",
+        "img":{
+            "src":"wc-scarper.jpg",
+            "alt":"Whisker City Scarper"
+        },
+        "brand":"whiskercity",
+        "categories": 2,
+        "subCategories":[6]
+    },
+    {
+        "id":18,
+        "name": "Whisker City Scarper",
+        "price":{
+            "noDis": 45.66,
+            "discount": 20
+        },
+        "description": "Your kitty is the ruler of their kingdom, so why not give them the castle they so rightfully deserve? This Whisker City Linen Playbox Cat Tower is a luxurious loft with so much to keep them busy, they may never leave! Scratching poles, toys, and perches give them options to climb, scratch, and play, or simply sleep the day away.",
+        "img":{
+            "src":"wc-scarper-2.jpg",
+            "alt":"Whisker City Scarper"
+        },
+        "brand":"whiskercity",
+        "categories": 2,
+        "subCategories":[6]
+    },
+    {
+        "id":19,
+        "name": "Whisker City Teaser",
+        "price":{
+            "noDis": 4.16,
+            "discount": 20
+        },
+        "description": "Engage in fun, interactive play with your kitty and keep her active and engaged with this Whisker City Natural Fish Teaser Cat Toy. Teasers give you the chance to interact with your cat and satisfy their natural instinct to hunt. Move the wand, dangle the toy and keep your cat active and entertained until one of you finally wears out.",
+        "img":{
+            "src":"wc-teaser-1.jpg",
+            "alt":"Whisker City Teaser"
+        },
+        "brand":"whiskercity",
+        "categories": 3,
+        "subCategories":[7]
+    },
+    {
+        "id":20,
+        "name": "Whisker City Teaser",
+        "price":{
+            "noDis": 5.66,
+            "discount": 20
+        },
+        "description": "Keep your cat engaged and entertained with this Whisker City Blue & Brown Twirl Teaser. This fun teaser features beautiful feathers, and allows you to enjoy interactive fun with your kitty as she swats and pounces on this adorable and enjoyable toy.",
+        "img":{
+            "src":"wc-teaser.jpg",
+            "alt":"Whisker City Teaser"
+        },
+        "brand":"whiskercity",
+        "categories": 3,
+        "subCategories":[7]
+    },
+    {
+        "id":21,
+        "name": "Whisker City Ball 2 Packs",
+        "price":{
+            "noDis": 1.66,
+            "discount": 10
+        },
+        "description": "Satisfy your cat's hunting instinct with these Whisker City 2 packs Balls Silverfrenzy Cat Toys. These fun toys contain silverfrenzy, an herbal blend that includes silvervine, which is stronger than regular catnip and has an effect on more kitties. Toss them for your kitty or let her play on her own.",
+        "img":{
+            "src":"wc-ball-2packs.jpg",
+            "alt":"Whisker City Ball"
+        },
+        "brand":"whiskercity",
+        "categories": 3,
+        "subCategories":[8]
+    },
+    {
+        "id":22,
+        "name": "Trixie Ball 4 packs",
+        "price":{
+            "noDis": 2.68,
+            "discount": 20
+        },
+        "description": "This 4-pack of Whisker City Easter Flower Balls makes it clear that sometimes all it takes is a touch of catnip to make your kitty hop around while satisfying their hunting instincts. Toss these toys for your cat, or let her play on her own.",
+        "img":{
+            "src":"trixie-ball-4packs_.jpg",
+            "alt":"Whisker City Scarper"
+        },
+        "brand":"trixie",
+        "categories": 3,
+        "subCategories":[8]
+    },
+    {
+        "id":23,
+        "name": "Trixie Ball 6 packs",
+        "price":{
+            "noDis": 5.36,
+            "discount": 20
+        },
+        "description": "Engage your cat's hunting instincts with this 6-pack of Trixie Fun Plastic Balls. These multi-colored balls are certain to pique your cat's interest, and are perfect for swatting, pouncing, and playing the day away. Toss them for interactive play or let your feline friend play on her own. ",
+        "img":{
+            "src":"trixie-ball-6packs.jpg",
+            "alt":"Trixie Ball 6 packs"
+        },
+        "brand":"trixie",
+        "categories": 3,
+        "subCategories":[8]
+    },
+    {
+        "id":24,
+        "name": "Trixie Teaser",
+        "price":{
+            "noDis": 4.46,
+            "discount": 20
+        },
+        "description": "Interact with your cat while satisfying her natural instinct to hunt with this Trixie Whisker City Natural Teaser 3-pack of Cat Toys. This teaser comes with 3 catnip-infused toys to choose from. Move the wand, dangle the toy, and keep your cat active and entertained until one of you finally wears out.",
+        "img":{
+            "src":"trixie-teaser-1.jpg",
+            "alt":"Whisker City Scarper"
+        },
+        "brand":"trixie",
+        "categories": 3,
+        "subCategories":[7]
+    }
+]

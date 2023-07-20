@@ -1,0 +1,47 @@
+
+[
+    {
+        "id": 1,
+        "name": "We are adopting cats",
+        "src": "assets/img/cat-adoption.jpg",
+        "description": "Adopting a cat can bring you a lot of joy. You will get a new family member which you have given a chance to get a happy home. If you decide to adopt your cat, it will go through a complete medical examination by our veterinarians. Adopting a cat gives it a chance for a long and happy life.",
+        "order":{
+            "order1":"order-1 justify-content-start",
+            "order2":"order-2"
+        },
+        "backgroundColor": "ik-bg-light-blue"
+    },
+    {
+        "id": 2,
+        "name": "Reputation you can trust",
+        "src": "assets/img/reputation.jpg",
+        "description": "With us you can find very high quality and necessary products all kinds of brands that will ensure a comfortable and healthy life for your cat. We have been in business for 10 years and you can have complete confidence in us.",
+        "order":{
+            "order1":"order-2 justify-content-end",
+            "order2":"order-1"
+        },
+        "backgroundColor": "ik-bg-white"
+    },
+    {
+        "id": 3,
+        "name": "Safe and secure shopping",
+        "src": "assets/img/safesecure.jpg",
+        "description": "The Cat Corner manages the complex routing of sensitive customer information through the electronic check and credit card processing networks. ",
+        "order":{
+            "order1":"order-1 justify-content-start",
+            "order2":"order-2"
+        },
+        "backgroundColor": "ik-bg-light-blue"
+    },
+    {
+        "id": 4,
+        "name": "Service that works for you",
+        "src": "assets/img/service.jpg",
+        "description": "The big experience of our call center is always ready to advise you on products that meets the needs of your pets and adapt it to the breed of your cat.",
+        "order":{
+            "order1":"order-2 justify-content-end",
+            "order2":"order-1"
+        },
+        "backgroundColor": "ik-bg-white"
+    }
+]

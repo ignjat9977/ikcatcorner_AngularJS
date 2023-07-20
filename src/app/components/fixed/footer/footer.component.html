@@ -1,0 +1,44 @@
+<footer>
+    <div class="footer-first ik-bg-light-blue py-4 ik-color-dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 d-flex align-items-start justify-content-start mb-2">
+                    <img src="assets/img/logo-footer.png" alt="Logo footer">
+                    <h2 class="ik-color-dark-blue mt-3"><span class="ik-color-red">Cat</span> Corner</h2>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <h4>Links</h4>
+                    <div class="quick-links">
+                        <ul>
+                            <ng-container *ngFor="let n of navigations">
+                              <li><a routerLink={{n.link}} routerLinkActive="active" ariaCurrentWhenActive="page">{{n.name}}</a></li>
+  
+                            </ng-container>
+                            
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <h4>Dokuments</h4>
+                    <div>
+                        <ul>
+                            <li><a href="documentacion.pdf"><i class="fas fa-file-pdf"></i>Pdf</a></li>
+                            <li><a href="sitemap.html"><i class="fas fa-sitemap"></i>Site Map</a></li>
+                            <li><a href="author.html"><i class="fas fa-user-circle"></i>Author</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="footer-second py-3 ik-bg-dark-blue ik-color-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    CopyRights &copy; By Ignjat Koički 2022  
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Belgrade",
+        "value":"b"
+    },
+    {
+        "id": 1,
+        "name": "New York",
+        "value":"n"
+    },
+    {
+        "id": 1,
+        "name": "London",
+        "value":"l"
+    },
+    {
+        "id": 1,
+        "name": "Roma",
+        "value":"r"
+    },
+    {
+        "id": 1,
+        "name": "Madrid",
+        "value":"m"
+    },
+    {
+        "id": 1,
+        "name": "Washington",
+        "value":"w"
+    },
+    {
+        "id": 1,
+        "name": "Tokyo",
+        "value":"t"
+    },
+    {
+        "id": 1,
+        "name": "Peking",
+        "value":"p"
+    }
+]

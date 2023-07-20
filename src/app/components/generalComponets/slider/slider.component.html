@@ -1,0 +1,17 @@
+<section id="slider-sec">
+    <div id="slider" #mySlider>
+        <img #sliderImg src="assets/img/slider-cat.jpg" alt="Cat playing" class="img-fluid ik-slider-active"/>
+        <img #sliderImg src="assets/img/slider-cat eating.jpg" alt="Cat eating" class="img-fluid"/>
+        <img #sliderImg src="assets/img/cat-love.png" alt="Cat in love" class="img-fluid"/>
+        <img #sliderImg src="assets/img/slider-cat-playing.jpg" alt="Cat playing" class="img-fluid"/>
+    </div>
+    <div class="ik-heading text-center">
+        <h1 class="text-capitalize ik-color-light-blue">Welcome to best cat shop</h1>
+    </div>
+    <div class="ik-left-arrow" >
+        <a (click)="movePictureLeft()"><i class="fas fa-arrow-left"></i></a>
+    </div>
+    <div class="ik-right-arrow" >
+        <a (click)="movePictureRight()"><i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>

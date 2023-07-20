@@ -1,0 +1,100 @@
+<main>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <form [formGroup]="contactForm" (ngSubmit)="contactMe()">
+                    <div class="form-row">
+                        <div class="form-group col-12 col-sm-6">
+                            <label>First Name: </label>
+                            <input type="text" formControlName="firstName" name="tbName" id="tbName" placeholder="Example(John)" class="form-control"/>
+                            <div class="alert alert-danger sn-field" *ngIf="contactForm.get('firstName')?.errors?.['required'] && contactForm.get('firstName')?.touched">
+                                FirstName is required!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('firstName')?.hasError('minlength') && contactForm.get('firstName')?.touched">
+                              FirstName min length 3!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('firstName')?.hasError('maxlength') && contactForm.get('firstName')?.touched">
+                                FirstName max length 30!
+                            </div>
+                        </div>
+                        <div class="form-group col-12 col-sm-6">
+                            <label for="">Last Name: </label>
+                            <input type="text" formControlName="lastName" name="tbLast" id="tbLast" placeholder="Example(James)" class="form-control">
+                            <div class="alert alert-danger sn-field" *ngIf="contactForm.get('lastName')?.errors?.['required'] && contactForm.get('lastName')?.touched">
+                                lastName is required!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('lastName')?.hasError('minlength') && contactForm.get('lastName')?.touched">
+                                lastName min length 3!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('lastName')?.hasError('maxlength') && contactForm.get('lastName')?.touched">
+                                lastName max length 30!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <label for="">Email: </label>
+                            <input type="text" name="tbEmail" formControlName="email" id="tbEmail" placeholder="Example(example@gmail.com)" class="form-control">
+                            <div class="alert alert-danger sn-field" *ngIf="contactForm.get('email')?.errors?.['required'] && contactForm.get('email')?.touched">
+                                Email is required!
+                              </div>
+                              <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('email')?.errors?.['email'] && contactForm.get('email')?.touched">
+                                Email is not in right format!
+                              </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-sm-6">
+                            <div id="ddlCityDiv" class="d-flex flex-row">
+                                City: 
+                                <select class="form-control" formControlName="city">
+                                    <ng-container *ngFor="let c of cities">
+                                        <option value="{{c.id}}">{{c.name}}</option>
+                                    </ng-container>
+                                </select>
+
+                            </div>
+                           <div class="alert alert-danger sn-field" *ngIf="contactForm.get('city')?.errors?.['required'] && contactForm.get('city')?.touched">
+                                City is required
+                              </div> 
+                        </div>
+                        <div class="form-group col-12 col-sm-6 d-flex justify-content-center flex-wrap">
+                            <label class="mr-4">Choose a gender: </label>
+                                <div class="form-check mr-3">
+                                  <input class="form-check-input" formControlName="gender" type="radio" name="gender" id="rbMale" value="option1">
+                                  Male
+                                </div>
+                                <div class="form-check mr-3">
+                                  <input class="form-check-input" formControlName="gender" type="radio" name="gender" id="rbFemale" value="option2">
+                                  Female
+                                </div>
+                                <div class="alert alert-danger sn-field" *ngIf="contactForm.get('gender')?.errors?.['required'] && contactForm.get('gender')?.touched">
+                                    Gender is required!
+                                  </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <label for="">Message</label>
+                            <textarea name="tbMessage" formControlName="message" id="tbMessage" cplaceholder="Ask question/Write comment" ols="30" rows="10" class="form-control"></textarea>
+                            <div class="alert alert-danger sn-field" *ngIf="contactForm.get('message')?.errors?.['required'] && contactForm.get('message')?.touched">
+                                Message is required!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('message')?.hasError('minlength') && contactForm.get('message')?.touched">
+                                Message min length 3!
+                            </div>
+                            <div class="alert alert-danger sn-filed" *ngIf="contactForm.get('message')?.hasError('maxlength') && contactForm.get('message')?.touched">
+                                Message max length 500!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12 d-flex justify-content-end">
+                            <input type="submit" id="sendM"value="Send" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>

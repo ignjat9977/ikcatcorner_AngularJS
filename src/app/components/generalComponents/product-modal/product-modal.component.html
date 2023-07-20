@@ -1,0 +1,13 @@
+<div class="d-flex flex-wrap">
+            <div class="col-12 col-md-6">
+                <img src="assets/img/{{p.img.src}}" alt="{{p.img.alt}}" class="img-fluid ik-img-see-more">
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                <h2>{{p.name}}</h2>
+                {{p.price.noDis  | discountPrice : p.price.discount }}&euro;
+                <p class="mb-2">
+                {{p.description}}
+                </p>
+                <a (click)="closeModal()"class="btn btn-danger align-self-end mr-4" id="ik-close-btn">Close</a>
+            </div>
+        </div>

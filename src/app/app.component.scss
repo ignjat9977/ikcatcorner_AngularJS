@@ -1,0 +1,282 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+$defWhite: #FFFAFF;
+$white: #ffffff;
+$lightBlue: #3E92CC;
+$darkBlue: #0A2463;
+$black: #000000;
+$defRed: #a4161a;
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    color: $black !important;
+}
+a{
+    color: $defWhite !important;
+    text-decoration: none !important;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0px !important;
+    margin-left: 0px;
+}
+.no-margin-bottom{
+    margin-bottom: 0px;
+}
+.ik-bg-white{
+    background-color: $defWhite;
+}
+.ik-bg-light-blue{
+    background-color: $lightBlue;
+}
+.ik-bg-dark-blue{
+    background-color: $darkBlue;
+}
+.ik-color-light-blue{
+    color: $lightBlue !important;
+}
+.ik-color-dark-blue{
+    color: $darkBlue !important;
+}
+.ik-color-red{
+    color: $defRed !important;
+}
+.ik-color-white{
+    color: $defWhite !important;
+}
+.ik-margin-bottom{
+    margin-bottom: 13px;
+}
+.ik-border-blue{
+    border: 1px solid $lightBlue;
+}
+.header-first{
+    #header-search{
+        border: 1px solid $lightBlue !important; 
+    }
+    .header-search-btn{
+        border: 1px solid $lightBlue;
+        border-left: none !important;
+        padding: 6px 5px;
+        &:hover{
+            background-color: $lightBlue;
+            i{
+                color:$defWhite !important;
+            }
+        }
+        i{
+            color:$lightBlue;
+            font-size: 20px;
+        }
+    }
+    i{
+        font-size: 40px;
+        color: $lightBlue;
+        margin-right: 7px;
+    }
+}
+.header-second{
+    #ik-ham-btn{
+        border: 1px solid $darkBlue;
+        i{
+            font-size: 40px;
+        }
+    }
+    #ik-ham-div{
+        display: none;
+        i{
+            color: $darkBlue;
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            padding: 10px;
+            a{
+                padding: 10px;
+                font-size: 20px;
+                transition: 1s;
+                &:hover{
+                    border: 1px solid $defWhite;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    .ik-cart-btn{
+        i{
+            color: $darkBlue;
+            font-size: 40px;
+            &:hover{
+                color: $defWhite;
+            }
+        }
+        
+    }
+}
+#slider img{
+    display: none;
+    width: 100%;
+}
+.ik-slider-active{
+    display: block !important;
+    width: 100%;
+}
+.ik-left-arrow{
+    position: absolute;
+    left: 30px;
+    top: 300px;
+    i{  
+        color: $darkBlue;
+        font-size: 60px;
+    }
+    a:hover{
+        i{
+            color:$white;
+        }
+        transition: 1s;
+    }
+}
+.ik-right-arrow{
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    i{
+        color: $darkBlue;
+        font-size: 60px;
+    }
+    a:hover{
+        i{
+            color:$white;
+        }
+        transition: 1s;
+    }
+}
+#slider-sec{
+    position: relative;
+    .ik-heading{
+        position:absolute;
+        top:10px;
+        left:10%;
+        right: 10%;
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+.footer-first{
+    border-bottom: 2px solid $darkBlue;
+    ul{
+        li{
+            a{
+                i{
+                    color: $darkBlue !important;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
+#services{
+    h2{
+        font-size: 40px;
+    }
+    .ik-card{
+        border: none;
+    }
+}
+main{
+    
+    .ik-item{
+        position: relative;
+        p{
+            margin-bottom: 0px;
+            i{
+                color: $lightBlue;
+            }
+        }
+        .ik-item-footer{
+            border-top: 1px solid $black;
+        }
+        .ik-img{
+            width: 100%;
+        }
+        .ik-discount{
+            position: absolute;
+            left: 0;
+            top: 5%;
+            background-color: $lightBlue;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            h4{
+                color:$white;
+            }
+        }
+    }
+    .ik-change-view{
+        font-size: 30px;
+    }
+}
+#ik-modal{
+    position: fixed;
+    top:20%;
+    left:20%;
+    right:20%;
+    z-index:14;
+    border: 2px solid $darkBlue;
+    background-color: $white;
+    overflow: scroll;
+    display: inline-block;
+    .ik-img-see-more{
+        width:100%;
+        height: auto;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+#err-modal{
+    position:fixed;
+    top:20%;
+    left:15%;
+    right:15%;
+    z-index: 15;
+    border: 4px solid $defRed;
+    i{
+        font-size: 30px;
+    }
+    background-color: $white;
+    display:none;
+}
+.ik-no-prod{
+    display:block;
+    margin: 0px auto;
+}
+.ik-num-prod{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: $defRed;
+    color:$defWhite !important;
+    position: relative;
+    left: -20px;
+    top: -15px;
+}
+.ik-hide{
+    display:none;
+}
+.ik-show{
+    display: block;
+}
+#messageModal{
+    position:fixed;
+    top: 20%;
+    border: 1px solid $darkBlue;
+    left: 20%;
+    right: 20%;
+    z-index: 15;
+    display:none;
+}
